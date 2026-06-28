@@ -25,7 +25,7 @@ import {
   extractCharges,
   finalizeCharges,
   fetchPrecedents,
-} from "../services/caseService";
+} from "../Services/caseService";
 
 // Modular Components
 import Step1Input from "../components/CaseFlowSteps/Step1Input";
