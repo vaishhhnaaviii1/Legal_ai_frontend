@@ -1,7 +1,8 @@
 const BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 export const createCase = async (description, userId) => {
-  const res = await (`${BASE_URL}/api/v1/cases`, {
+  // Yahan fetch add kiya gaya hai 👇
+  const res = await fetch(`${BASE_URL}/api/v1/cases`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
